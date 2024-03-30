@@ -36,6 +36,9 @@ body {
     background-position: inherit;
     background-size: 100%;
 }
+._br_{
+    display: none;
+}
 
 .leftbloc_header  {
     width: 300px;

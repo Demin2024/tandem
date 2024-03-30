@@ -1,0 +1,309 @@
+@media screen and (min-width: 1000px) and (max-width: 1190px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   
+    
+    .container {
+        width: 1000px;
+        display: block;
+    }
+    
+  
+    .head  {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: start;
+        background-image: url(foto\ tandem/top11.jpg);
+        background-repeat: no-repeat;
+        background-attachment: local;
+        background-position: inherit;
+        background-size: 100%;
+    }
+    ._br_{
+        display: none;
+    }
+ 
+    .logo_img {
+        width:250px; 
+    }
+    
+    .bar {
+        width: 100%;
+        height: 70px;
+    }
+    
+    .str_bar {
+        width: 95px;
+        height: 70px;
+        align-items: center;  
+    }
+    .instgr{
+        display: none;
+    }
+    
+ 
+   
+    
+    .club {
+        width: 100%;
+        padding-top:5px;
+    }
+    
+    .club_left {
+        width: 50%;
+        padding: 20px;
+    }
+    
+    .club_right {
+        width: 50%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .club_img {
+        width: 100%;
+    }
+    
+    .club_text_h2 {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-bottom: 10px;
+    }
+    
+    .text_club {
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .text_club_z {
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:  #ea7b0c ;
+    }
+    
+    .text_club_s {
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #989494 ;
+    }
+    
+    .text_club_b {
+        font-size: 20px;
+        padding-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #bea30d ;
+    }
+    
+    .galerea {
+        width: 100%;    
+        background-image: url(foto\ tandem/fon_fotogr.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .slaider {
+        width: 100%;
+        padding: 40px;
+        display: flex;
+        justify-content: start;   
+    }
+    
+    .mySlides {
+        width: 600px;    
+        border: 1px solid rgb(111, 105, 105);
+        border-radius: 30px;
+        overflow: hidden;    
+    }
+
+    /*----тренер-----*/
+
+    .trener {
+        width: 1000px;
+
+    }
+    .trener_img {
+        width: 100%;
+
+    }
+
+      /*----тренер-----*/
+        /*----комнада фото-----*/
+    
+    .comanda {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .comanda_bloc {
+        width: 200px;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        border: 1px solid rgb(230, 224, 224);    
+        overflow: hidden; 
+        background-color: rgb(224, 222, 220);
+    }
+    
+    .foto_comanda {
+        width: 200px;
+        height: 300px;
+        border: 1px solid rgb(100, 97, 97);   
+        overflow: hidden; 
+    }
+    
+    .img_name {
+        width: 200px;
+        height: 300px;
+        
+        
+    }
+    
+    .name_text {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*-----новости--*/
+    .news {
+        width: 100%;
+        display: flex;
+        flex-direction: column;   
+        padding-top: 30px;
+    }
+    
+    .head_news_png {
+        width: 100%;
+    }
+    
+    .news_png {
+        width: 100%;
+    }
+    
+    .head_news {
+        width: 100%;
+    }
+    
+    .bloc_news {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        /*background-image: url(fon-news2.png);*/
+        background-color: rgb(226, 232, 232);
+        border: 1px solid rrgb(211, 213, 220);   
+        justify-content: start;
+        margin-top: 30px;
+    }
+    
+    .img_bloc_new {
+        width: 400px;
+        justify-content: start;
+    }
+    
+    .img_new {    
+        height: 300px; 
+    }
+    
+    .text_bloc_news {
+        width: 1000px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+    
+    .h_text_news {
+        padding-bottom: 20px;
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    
+    }
+    
+    .data_mesto_news {
+        padding-bottom: 10px;
+        font-size: 25px;
+        color: #989494;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+       
+    
+    }
+    
+    .text_news {
+        padding-bottom: 10px;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    
+    
+    /*-----новости--*/
+    
+    /*-----контакты--*/ 
+    .contact {
+        width: 100%;
+        height: 300px;
+        background-color: rgb(99, 99, 225);
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    .left_bloc_conact{
+        width: 50%;
+        height: 300px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+    
+    .right_bloc_conact {
+        width: 50%;
+        height: 300px;
+    }
+    
+    .carta {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-right: 10px;
+    }
+    .h_contact {
+        font-size: 30px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding-bottom: 20px;
+    }
+    
+    .text_contact {
+        font-size: 20px;
+        font-weight: 100;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 10px;   
+    }
+    /*-----контакты--*/ 
+
+}
+
+
